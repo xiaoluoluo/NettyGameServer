@@ -12,10 +12,9 @@ public class App {
 
 	public static void main(String[] args) {
 
-		
-		logger.debug("111");
-//		logger.warn("1111");
+		logger.debug("1111");
+		logger.info("222");
+		logger.error("333");
 
-		// System.out.println("Hello World!");
 	}
 }
