@@ -7,14 +7,18 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ReadConfig {
+public class Config {
 
-	public static final Logger logger = LoggerFactory.getLogger(ReadConfig.class);
+	public static final Logger logger = LoggerFactory.getLogger(Config.class);
+	public static final String CONN_IP = "127.0.0.1";
+	public static final int CONN_PORT = 6610;
 
-	public ReadConfig() {
+	public Config() {
 		read();
 	}
 
+	
+	
 	public void read() {
 
 		Properties prop = new Properties();
